@@ -39,7 +39,8 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 :root{
-  --color-button-border: rgba(0, 151, 211, 0.479);
-  --color-button-color: rgb(90, 90, 90);
+  --color-button-border: black;
+  --color-button-color: rgba(241, 241, 241, 0.863);
+  --color-button-background-color: rgba(0, 82, 150, 0.705);
   
 }

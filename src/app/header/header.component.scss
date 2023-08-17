@@ -9,9 +9,10 @@ po-menu{
         width: 150px;
 
         &:hover{
+            transition: 2s;
             background-color: black;
         }
-        
+
     }
 
     display: flex;
