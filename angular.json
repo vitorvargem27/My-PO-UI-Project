@@ -30,9 +30,16 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@po-ui/style/css/po-theme-default-variables.min.css",
+              "node_modules/@po-ui/style/css/po-theme-core.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js",
+	            "node_modules/popper.js/dist/umd/popper.js",
+	            "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,6 +100,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@po-ui/style/css/po-theme-default.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +108,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "71b0171c-a43e-4545-b20b-1e1b98c9705d"
   }
 }
